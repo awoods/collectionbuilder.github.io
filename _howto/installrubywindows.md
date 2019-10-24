@@ -9,16 +9,16 @@ To use Jekyll, ***you do not need to know anything about Ruby***, but if you are
 {:.alert .alert-success}
 Ruby installation on Windows is surprisingly easy for Windows 10 machines. So you're in luck! If you run into specific issues, please let us know and we can update this guide with more warnings and (hopefully) solutions. 
 
-
-
 ## Install RubyInstaller for Windows.
 
 ### Step 1 - Download Ruby Installer
+
 - First, [download](https://rubyinstaller.org/downloads/){:target="_blank"} the suggested stable version "WITH DEVKIT" (as of this writing, Ruby+Devkit 2.6.X (x64)) and double click to install.
 
 {% include bootstrap/figure.md img="/howto/ruby/rubyinstaller-download.png" class="m-4" caption="Download Ruby+Devkit 2.6.5-1 (x64)" %}
 
 ### Step 2 - Run RubyInstaller 
+
 - Open RubyInstaller by double clicking on the file you just downloaded
 - Accept the license. 
 
@@ -42,9 +42,7 @@ Installing Ruby on Windows may take several minutes, depending on your machine. 
 {% include bootstrap/figure.md img="/howto/ruby/rubyinstaller-msys2.png" class="m-4" caption="Press ENTER to install MSYS2" %}
 
 - Wait for the installation to finish. Like the ruby installation, this may take several minutes. 
-
 - When the installation is complete, another terminal window will pop up telling you the installation succeeded. 
-
 - Press ENTER one more time and the terminal window will close. 
 
 {:.alert .alert-warning}
@@ -57,7 +55,6 @@ Sometimes the MSYS2 installation takes a long time, or gets hung up. Wait for so
 {% include bootstrap/figure.md img="/howto/ruby/openterminal.png" class="m-4" caption="Type 'terminal' into the search box and open the Command Prompt app" %}
 
 - Click to open the "Command Prompt" app that comes up. 
-
 - Type `ruby -v` into the prompt and hit enter. 
 
 {% include bootstrap/figure.md img="/howto/ruby/ruby-v.png" class="m-4" caption="Type `ruby -v` into the command prompt" %}
@@ -66,10 +63,8 @@ Sometimes the MSYS2 installation takes a long time, or gets hung up. Wait for so
 
 {% include bootstrap/figure.md img="/howto/ruby/rubyversionlisted.png" class="m-4" caption="SUCCESS! Your ruby version is listed. Mine is listed here as '2.5.5'" %}
 
-
 {:.alert .alert-info}
 We have had regular success in installing Ruby on Windows using the Ruby Installer. We have, however, mostly been using Windows 10 machines. If you are using an earlier Windows OS, there may be steps or problems we have not encountered. If you have a significant problem with this process, please let us know. We would like to update the documentation for others in the future if any common problems arise. 
-
 
 {: .pl-4 }
 >*<small>Some of this material was gleaned from [an "install ruby on windows" article on stackify](https://stackify.com/install-ruby-on-windows-everything-you-need-to-get-going/)</small>*
