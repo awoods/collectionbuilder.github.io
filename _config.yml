@@ -26,6 +26,9 @@ collections:
     output: true
     permalink: /:collection/:title
     sort_by: step
+  howto:
+    output: true
+    permalink: /:collection/:title
   
     
 defaults:
@@ -39,6 +42,11 @@ defaults:
       type: "docs"
     values:
       layout: "docs"
+  - scope:
+      path: ""
+      type: "howto"
+    values:
+      layout: "howto"
 
 
 # Use Bootstrap (true, false)
