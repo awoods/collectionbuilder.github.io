@@ -52,7 +52,7 @@ Sometimes the MSYS2 installation takes a long time, or gets hung up. Wait for so
 
 ### Step 3 - Check that it Worked!
 
-- Open up a terminal window by typing "terminal" into the Windows search box near the start menu. (If you want to learn more about opening and using the terminal, check out our [How To Open Up the Terminal](openaterminal.html) page)
+- Open up a terminal window by typing "terminal" into the Windows search box near the start menu. (If you want to learn more about opening and using the terminal, check out our [How To Open Up the Terminal](openaterminalwindows.html) page)
 
 {% include bootstrap/figure.md img="/howto/ruby/openterminal.png" class="m-4" caption="Type 'terminal' into the search box and open the Command Prompt app" %}
 
