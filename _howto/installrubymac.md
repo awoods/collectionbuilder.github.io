@@ -5,6 +5,8 @@ title: How To Install Ruby on a Mac
 
 [Ruby](https://www.ruby-lang.org/en/){:target="_blank"} is a fairly young and developing programming language with some unique features. 
 To use Jekyll, ***you do not need to know anything about Ruby***, but if you are curious, check out [Ruby in 20 minutes](https://www.ruby-lang.org/en/documentation/quickstart/){:target="_blank"}.
+Jekyll requires Ruby version 2.4.0 or above (at the time of this writing), plus a few common build tools. 
+Check the [Jekyll requirements](https://jekyllrb.com/docs/installation/) for latest details.
 
 {:.alert .alert-warning}
 Installing Ruby on Mac can be a PAIN IN THE ASS. Stick with it! We detail several different trouble shooting techniques below, but if you run into other issues, please let us know and we can update this guide with more warnings and (hopefully) solutions. Also, make sure to follow steps 1 and 2!
@@ -15,6 +17,7 @@ Installing Ruby on Mac can be a PAIN IN THE ASS. Stick with it! We detail severa
 
 3. Start with RVM, and good luck. 
 
+official [Jekyll install on mac docs](https://jekyllrb.com/docs/installation/macos/)
 
 Frustratingly, different versions have many dependency and incompatibility problems.
 Because of these issues, many use Ruby Managers, such as [RVM](http://rvm.io/){:target="_blank"}, to install and switch between versions.
@@ -32,3 +35,25 @@ Jekyll requires a Ruby version that is greater than 2.2.5.
         - Use RVM to install that version: `rvm install 2.6.4` (this may take a long time...)
         - Set it as default Ruby: `rvm --default use 2.6.4`
         - Check: `ruby -v`
+
+# rbenv
+
+`brew install rbenv`
+
+`rbenv init`
+this lists some text that has instructions you have to follow. On mac it should say to add something to your bash_profile.
+open the file it says with nano, e.g. nano ~/.bash_profile (init will give you the correct filename)
+then paste in what the init message said.
+(or use echo)
+
+then install ruby
+`rbenv install 2.6.3`
+
+then set globally
+`rbenv global 2.6.3`
+
+then rehash
+`rbenv rehash`
+
+test
+`ruby -v`

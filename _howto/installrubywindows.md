@@ -5,6 +5,8 @@ title: How To Install Ruby on Windows
 
 [Ruby](https://www.ruby-lang.org/en/){:target="_blank"} is a fairly young and developing programming language with some unique features. 
 To use Jekyll, ***you do not need to know anything about Ruby***, but if you are curious, check out [Ruby in 20 minutes](https://www.ruby-lang.org/en/documentation/quickstart/){:target="_blank"}.
+Jekyll requires Ruby version 2.4.0 or above (at the time of this writing), plus a few common build tools. 
+Check the [Jekyll requirements](https://jekyllrb.com/docs/installation/) for latest details.
 
 {:.alert .alert-success}
 Ruby installation on Windows is surprisingly easy for Windows 10 machines. So you're in luck! If you run into specific issues, please let us know and we can update this guide with more warnings and (hopefully) solutions. 
@@ -67,4 +69,5 @@ Sometimes the MSYS2 installation takes a long time, or gets hung up. Wait for so
 We have had regular success in installing Ruby on Windows using the Ruby Installer. We have, however, mostly been using Windows 10 machines. If you are using an earlier Windows OS, there may be steps or problems we have not encountered. If you have a significant problem with this process, please let us know. We would like to update the documentation for others in the future if any common problems arise. 
 
 {: .pl-4 }
->*<small>Some of this material was gleaned from [an "install ruby on windows" article on stackify](https://stackify.com/install-ruby-on-windows-everything-you-need-to-get-going/)</small>*
+>*<small>Some of this material was gleaned from [an "install ruby on windows" article on stackify](https://stackify.com/install-ruby-on-windows-everything-you-need-to-get-going/).
+Check the official [Jekyll install on Windows docs](https://jekyllrb.com/docs/installation/windows/) for more options.</small>*
