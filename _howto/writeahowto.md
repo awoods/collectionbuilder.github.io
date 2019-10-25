@@ -48,9 +48,9 @@ This include pushes your variables -- which in this example are "img" and "capti
 
 The "img" variable should reference your images location, starting with '/howto/'. 
 
-The caption will be written below the image included. You should use the caption to briefly describe the image and add an instruction or other reference to the step.
+The "caption" variable will be written below the image included. You should use the caption to briefly describe the image and add an instruction or other reference to the step.
 
-The alt variable should be a verbose description of the image for screen readers. 
+The "alt" variable should be a verbose description of the image for screen readers. 
 
 ### Adding a Boostrap Alert
 
