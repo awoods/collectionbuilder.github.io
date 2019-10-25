@@ -10,24 +10,16 @@ layout: default
         </div>
     </div>
     <div class="row my-4 p-4">
-<div class="col-12">
 <div class="card-deck my-2">
-        {%assign modules = site.howto | sort: "step" %}
+        {%assign modules = site.howto | sort: "title" %}
         {%for module in modules %}
 
-
+<div class="col-4 mb-3">
         <div class="card bg-dark text-white p-4">
-            <h2 class="display-5 m-4"><a href="{{module.url | append: '.html' | relative_url}}">{{module.title}}</a></h2>
+            <h2 class="display-5 m-4"><a href="{{module.url | append: '.html' | relative_url}}">{{module.title | remove: "How To"}}</a></h2>
         </div>
-
-    {% if forloop.index == 2 %}</div></div><div class="col-12">
-            <div class="card-deck my-2">{%endif%}
-                    {% if  forloop.index == 4 %}</div></div><div class="col-12">
-                            <div class="card-deck my-2">{%endif%}
-                    {% if  forloop.index == 6 %}</div></div><div class="col-12">
-                            <div class="card-deck my-2">{%endif%}
-    {% if  forloop.index == 8 %}</div></div><div class="col-12">
-                                            <div class="card-deck my-2">{%endif%}
+    </div>
+    
         {%endfor%}
         </div>
 
