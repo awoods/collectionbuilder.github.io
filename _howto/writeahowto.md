@@ -33,7 +33,9 @@ Keep each action short and add an image if it makes sense.
 
 Name all images using only lowercase characters. Include no spaces in the filename, or anything else weird. 
 
-Add the image to a folder inside the '/images/howto/' folder that pertains to your section. So if you're talking about 'git' put your images in a folder called 'git' -- if you need to create that folder, that's fine. 
+Add the image to a folder inside the '/images/howto/' folder that pertains to your section. 
+So if you're talking about 'git' put your images in a folder called 'git' -- if you need to create that folder, that's fine. 
+Folder names should also be lowercase, no spaces, or anything else weird.
 
 You will then reference that folder in the include explained below. 
 
@@ -44,7 +46,7 @@ We will be adding images by using a [jekyll include](https://jekyllrb.com/docs/i
 {:.pl-4}
 `{%raw%}{% include bootstrap/figure.md img="/howto/ruby/rubyinstaller-download.png" caption="Download Ruby+Devkit 2.6.5-1 (x64)" alt="a screenshot of the first section of the Ruby Installer website" %}{%endraw%}`
 
-This include pushes your variables -- which in this example are "img" and "caption" -- into a [Bootstrap figure](https://getbootstrap.com/docs/4.0/content/figures/). 
+This include pushes your variables -- which in this example are "img", "caption", and "alt" -- into a [Bootstrap figure](https://getbootstrap.com/docs/4.0/content/figures/). 
 
 The "img" variable should reference your images location, starting with '/howto/'. 
 
