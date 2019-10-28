@@ -17,7 +17,7 @@ Visual Studio Code is an open source text editor which will help you develop you
 
 
 
-## Step 2: Finalize Download
+## Step 2: Initiate/ Finalize Download
 
 - After you click on the download button you will be taken to a page that says "Get Started." It will also drop a download package to the bottom of your browser (or the top of your browser in the downloads file if using a Mac). 
 - Click on the downloaded file and accept the terms of agreement, select the destination location, select menu start folder, click any additional tasks (probably only "add to path"), and then install. 
