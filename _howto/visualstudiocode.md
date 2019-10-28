@@ -8,10 +8,10 @@ Visual Studio Code is an open source text editor which will help you develop you
 
 ## Step 1
 
--Go to Visual Studio Code's [website](https://code.visualstudio.com). Here you will find clear instructions about how to download this program. The website should discern if you are visiting their site using windows, IOS, or Linux. 
--It will then display a button that says "Download" for whatever operating system your computer utilizes.  
+- Go to Visual Studio Code's [website](https://code.visualstudio.com). Here you will find clear instructions about how to download this program. The website should discern if you are visiting their site using windows, IOS, or Linux. 
+- It will then display a button that says "Download" for whatever operating system your computer utilizes.  
 
 ## Step 2
 
--After you click on the download button you will be taken to a page that says "Get Started." It will also drop a download package to the bottom of your browser (or the top of your browser in the downloads file if using a Mac). 
--Click on the downloaded file and accept the terms of agreement, select the destination location, select menu start folder, click any additional tasks (probably only "add to path"), and then install. After a minute or so the download should be completed and it will direct you to click the "finish" button. 
+- After you click on the download button you will be taken to a page that says "Get Started." It will also drop a download package to the bottom of your browser (or the top of your browser in the downloads file if using a Mac). 
+- Click on the downloaded file and accept the terms of agreement, select the destination location, select menu start folder, click any additional tasks (probably only "add to path"), and then install. After a minute or so the download should be completed and it will direct you to click the "finish" button. 
