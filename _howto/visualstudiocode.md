@@ -19,5 +19,41 @@ Visual Studio Code is an open source text editor which will help you develop you
 
 - After you click on the download button you will be taken to a page that says "Get Started." It will also drop a download package to the bottom of your browser (or the top of your browser in the downloads file if using a Mac). 
 - Click on the downloaded file and accept the terms of agreement, select the destination location, select menu start folder, click any additional tasks (probably only "add to path"), and then install. 
-{% include bootstrap/figure.md img="howto/visualstudio/screen-shot-2.png" caption="then click this download file" alt="screen shot of the download file for downloading VS code" class="w-50"%}
+{% include bootstrap/figure.md img="howto/visualstudio/screen-shot-2.png" caption="click this download file" alt="screen shot of the download file for downloading VS code" class="w-50"%}
 - After a minute or so the download should be completed and will direct you to click the "finish" button. 
+
+## Setting up Visual Studio Code 
+
+You will, over time, realize your preferences in Visual Studio Code; however, here are the settings we recommend beginning with when starting Collection Builder. 
+
+## Step 1
+
+- Open your Visual Studio Code and scroll down to the gear icon in the bottom left hand corner of the window. 
+{% include bootstrap/figure.md img="howto/visualstudio/screenshot.3.updated.png" caption="click gear icon" alt="screen shot of gear icon" class="w-50"%}
+
+- the select the "settings" option. 
+{% include bootstrap/figure.md img="howto/visualstudio/screenshot.4.png" caption="click the settings button" alt="screen shot of the settings button" class="w-50"%}
+
+- Toward the top right-hand corner of the window you will see a file icon, click on it.  
+{% include bootstrap/figure.md img="howto/visualstudio/screenshot.5.png" caption="click on this file icon" alt="screen shot of the file icon" class="w-50"%}
+
+- You will be taken to a tab which will contain two curly brackets. Note: if there is any text contained inside of the brackets delete it now, but leave the brackets.
+{% include bootstrap/figure.md img="howto/visualstudio/sreenshot.6.png" caption="click on this file icon" alt="screen shot of the file icon" class="w-50"%}
+
+- You will then copy and paste this code in between the brackets. 
+
+{:.alert .alert-success}
+"editor.minimap.enabled": false,  
+    "editor.wordWrap": "on",  
+    "html.format.maxPreserveNewLines": 2,  
+    "html.format.wrapLineLength": 0,  
+    "editor.codeLens": false,  
+    "outline.problems.badges": false,  
+    "outline.problems.enabled": false,  
+    "outline.problems.colors": false,  
+    "problems.decorations.enabled": false,  
+    "problems.autoReveal": false  
+    
+{% include bootstrap/figure.md img="howto/visualstudio/screenshot.7.png" caption="it should look like this" alt="screen shot of pasted text" class="w-50"%}
+
+- Now that you are complete be sure to save your changes before moving on. 
