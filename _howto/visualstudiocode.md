@@ -29,18 +29,18 @@ You will, over time, realize your preferences in Visual Studio Code; however, he
 ## Step 1
 
 - Open your Visual Studio Code and scroll down to the gear icon in the bottom left hand corner of the window. 
-{% include bootstrap/figure.md img="howto/visualstudio/screenshot.3.updated.png" caption="click gear icon" alt="screen shot of gear icon" class="w-50"%}
+{% include bootstrap/figure.md img="howto/visualstudio/screenshotgears2copy.png" caption="click gear icon" alt="screen shot of gear icon" class="w-50"%}
 
 - the select the "settings" option. 
-{% include bootstrap/figure.md img="howto/visualstudio/screenshot.4.png" caption="click the settings button" alt="screen shot of the settings button" class="w-50"%}
+{% include bootstrap/figure.md img="howto/visualstudio/screenshotsettings.png" caption="click the settings button" alt="screen shot of the settings button" class="w-50"%}
 
 - Toward the top right-hand corner of the window you will see a file icon, click on it.  
-{% include bootstrap/figure.md img="howto/visualstudio/screenshot.5.png" caption="click on this file icon" alt="screen shot of the file icon" class="w-50"%}
+{% include bootstrap/figure.md img="howto/visualstudio/screenshotfile.png" caption="click on this file icon" alt="screen shot of the file icon" class="w-50"%}
 
 - You will be taken to a tab which will contain two curly brackets. Note: if there is any text contained inside of the brackets delete it now, but leave the brackets.
-{% include bootstrap/figure.md img="howto/visualstudio/sreenshot.6.png" caption="click on this file icon" alt="screen shot of the file icon" class="w-50"%}
+{% include bootstrap/figure.md img="howto/visualstudio/sreenshot.6.png" caption="curly brackets" alt="screen shot of the file icon" class="w-50"%}
 
-- You will then copy and paste this code in between the brackets. 
+- You will then copy and paste this code in between the brackets. This will update your settings to what we believe will work compatibly with Collection Builder's needs. 
 
 {:.alert .alert-success}
 "editor.minimap.enabled": false,  
@@ -56,4 +56,4 @@ You will, over time, realize your preferences in Visual Studio Code; however, he
     
 {% include bootstrap/figure.md img="howto/visualstudio/screenshot.7.png" caption="it should look like this" alt="screen shot of pasted text" class="w-50"%}
 
-- Now that you are complete be sure to save your changes before moving on. 
+- Now that you are complete be sure to save your changes before moving on. You have officially *set up* Visual Studio Code. 
