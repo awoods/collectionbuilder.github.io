@@ -9,17 +9,11 @@ For example, a CollectionBuilder project will be one repository.
 
 ### Step 1: Create a New Repository in GitHub
 
-1. Login to [GitHub](https://github.com/).
+1. Login to [GitHub](https://github.com/){:target="_blank"}.
 2. Make a new repository. There are a few different ways to make a new repository depending on what page you are on:
 
-- If your page looks like this, you can go to the top right corner and click the plus icon and select “New Repository.” Or you can select the "New" button on the left side of the window.  
+- You can create a new repository in GitHub by selecting the green "New" button whenever you see that. Or you can go to the top right corner and click the plus icon and select “New Repository” on any page within GitHub.
 {% include bootstrap/figure.md img="/howto/github/github_newrepository.png" caption="One way to create a new repository" alt="One way to create a new repository in GitHub online" %}
-    
-- If you're on any page within you GitHub, you can select your profile icon and a dropdown list will appear. In this dropdown, you can select "Your Repositories."
-{% include bootstrap/figure.md img="/howto/github/github_newrepository1.png" caption="Part 1: Another way to create a new repository" alt="Going to your repositories list page"%}
-    
-- Then when you get to the page displaying your repositories, you can select the "New" button on the right-hand side above where your repositories are listed.
-{% include bootstrap/figure.md img="/howto/github/github_newrepository2.png" caption="Part 2: Another way to create a new repository from your repository page" alt="New repository from your repository page" %}
 
 ### Step 2: Name and Describe Your Repository
 
@@ -29,15 +23,15 @@ For example, a CollectionBuilder project will be one repository.
 
 ### Step 3: README and .gitignore
 
-- Scroll down the page from where you named your repository. There will be a checkbox next to "Initialize this repository with a README. Check this box. This will start your repository with at least one document that you can edit, making it easier to get started.
+- Scroll down the page from where you named your repository. There will be a checkbox next to "Initialize this repository with a README". Check this box. This will start your repository with at least one document that you can edit, making it easier to get started.
 - Directly under the README checkbox, there will be a dropdown list button saying "Add .gitignore." Click the dropdown, start typing "Jekyll" in the search, and select the "Jekyll" option.
 - The rest of the settings should be ready to go as they are. Now select the "Create Repository" button.
 {% include bootstrap/figure.md img="/howto/github/github_readme.png" caption="Selecting the README box, adding the Jekyll .gitignore, and creating your repository. " alt="Checked README box, added Jekyll .gitignore, and creating the repository" %}
 
 ### Step 4: Use Your New Repository to create your own CollectionBuilder page!
 
-- Awesome! You successfully created a repository. Now you are able to use this to create your own GitHub page OR you can now create your own [CollectionBuilder](https://collectionbuilder.github.io/) page!
-- Follow this ["How To"](githubdesktoprepo.html) to set up the CollectionBuilder repository into your own.
+- Awesome! You successfully created a repository. Now you are able to use this to create your own GitHub page OR you can now create your own [CollectionBuilder](https://collectionbuilder.github.io/){:target="_blank"} page!
+- Follow this ["How To"](githubdesktoprepo.html){:target="_blank"} to set up the CollectionBuilder repository into your own.
 
 {:.alert .alert-info}
-Before you set up CollectionBuilder in your repository, you will have to install [GitHub Desktop](githubdesktop.html) and a text editor, such as [Visual Studio Code](visualstudiocode.html).
+Before you set up CollectionBuilder in your repository, you will have to install [GitHub Desktop](githubdesktop.html){:target="_blank"} and a text editor, such as [Visual Studio Code](visualstudiocode.html){:target="_blank"}.
