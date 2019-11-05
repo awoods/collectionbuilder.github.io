@@ -30,8 +30,9 @@ For example, a CollectionBuilder project will be one repository.
 
 ### Step 4: Use Your New Repository to create your own CollectionBuilder page!
 
-- Awesome! You successfully created a repository. Now you are able to use this to create your own GitHub page OR you can now create your own [CollectionBuilder](https://collectionbuilder.github.io/){:target="_blank"} page!
+- Awesome! You successfully created a repository. Now you are able to use this to create your own [GitHub page](https://guides.github.com/features/pages/) OR you can now create your own [CollectionBuilder](https://collectionbuilder.github.io/){:target="_blank"} page!
 - Follow this ["How To"](githubdesktoprepo.html){:target="_blank"} to set up the CollectionBuilder repository into your own.
 
 {:.alert .alert-info}
 Before you set up CollectionBuilder in your repository, you will have to install [GitHub Desktop](githubdesktop.html){:target="_blank"} and a text editor, such as [Visual Studio Code](visualstudiocode.html){:target="_blank"}.
+- For additional help on working in GitHub, you can view the guides [here](https://guides.github.com/)
