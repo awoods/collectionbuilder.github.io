@@ -35,4 +35,5 @@ For example, a CollectionBuilder project will be one repository.
 
 {:.alert .alert-info}
 Before you set up CollectionBuilder in your repository, you will have to install [GitHub Desktop](githubdesktop.html){:target="_blank"} and a text editor, such as [Visual Studio Code](visualstudiocode.html){:target="_blank"}.
+
 - For additional help on working in GitHub, you can view the guides [here](https://guides.github.com/)
