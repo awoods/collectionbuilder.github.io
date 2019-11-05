@@ -27,10 +27,10 @@ You can opt to pay for the plan if you'd like, but you can also select to have t
 
 ### Step 4: Verify your Email
 
-- Then GitHub will send you an email to the email you used to set up your account. Open that email and verify your email.
+- Then GitHub will send you an email to the email you used to set up your account. Open that email and verify your emailaddress.
 
 ### Step 5: Use GitHub to make your own digital collection using CollectionBuilder
 
 - Now you should be ready to use your GitHub account! 
-- Go to the [Set Up the CollectionBuilder Repository in GitHub Desktop]() "how to" page to make you own digital collection with [CollectionBuilder](https://collectionbuilder.github.io/){:target="_blank"}.
+- Go to the [Set Up the CollectionBuilder Repository in GitHub Desktop](githubdesktoprepo.html){:target="_blank"} "how to" page to make you own digital collection with [CollectionBuilder](https://collectionbuilder.github.io/){:target="_blank"}.
 
