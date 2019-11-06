@@ -9,14 +9,21 @@ Atom is an open source text editor, which will help you develop your Collection 
 
 - Go to Atom's [website](https://atom.io){:target="_blank"} and press download (the website should automatically detect what OS you utilize).
 
-{% include bootstrap/figure.md img="howto/atom/atom_homepage.png" caption="download button (provides options for various operating systems)" alt="screen shot of the download button for downloading VS code" class="w-50"%}
+{% include bootstrap/figure.md img="howto/atom/atom.homepage.png" caption="download button" alt="screen shot of the download button" class="w-50"%}
 
 - The website will drop you a download file. Click on it. 
+
+{% include bootstrap/figure.md img="howto/atom/atom.zip.file.png" caption="zip file" alt="screen shot of the zip file" class="w-50"%}
+
 - Your computer may ask you a question like this; click yes, the program is safe. 
+
+{% include bootstrap/figure.md img="howto/atom/download.permission.png" caption="" alt="screen shot of permission request" class="w-50"%}
 
 ## Step 2 
 
 - You will be shown a screen like this. Click around and start coding, or you can begin customizing Atom. There are also options to learn quick key combinations that will make your experience much more efficient. You can choose themes, if you are an aesthetically driven person, or if it just makes more sense for you visually to manipulate the program a bit. 
+
+{% include bootstrap/figure.md img="howto/atom/know.atom.copy.png" caption="" alt="screen shot of atom homepage" class="w-50"%}
 
 ## Step 3 (optional)
 
