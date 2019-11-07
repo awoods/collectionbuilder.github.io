@@ -28,6 +28,17 @@ Atom is an open source text editor, which will help you develop your Collection 
 ## Step 3 (optional)
 
 - You may want to install a package on Atom. Packages help increase the useability. 
-- You're going to want to click on the "Install a Package" button, under the "Get to Know Atom" window. 
+- You're going to want to click on the "Install a Package" button, under the "Get to Know Atom" window.
+
+{% include bootstrap/figure.md img="howto/atom/know.atom.install.png" caption="" alt="screen shot of the install button" class="w-50"%}
+
 - Then click the "Open Installer" button. 
+
+{% include bootstrap/figure.md img="howto/atom/open.search.png" caption="" alt="screen shot of the open installer" class="w-50"%}
+
 - A search bar will open and you will have the ability to enter the name of packages you wish to install, or search options Atom suggests. 
+{% include bootstrap/figure.md img="howto/atom/search.bar.copy.png" caption="install package search bar" alt="screen shot of the search bar" class="w-50"%}
+
+- One helpful package is Rainbow-CSV. This will color-coat your text and help you segregate lines and various pieces of code. You will simply type the name of the package into the search bar, and then you will click install. 
+
+{% include bootstrap/figure.md img="howto/atom/rainbow.emphasis.png" caption="" alt="screen shot of the search bar and install button" class="w-50"%}
