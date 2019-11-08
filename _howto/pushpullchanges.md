@@ -20,5 +20,14 @@ When you make edits with your code, either online or in your text editor, you wi
 
 1. Once your changes have been committed, you'll see the number of commits next to "Push Origin" on the right of the top bar displaying your repository and branch.
 
-2. Select "Push Origin." This allows your changes to be seen by your team members and others through your GitHub  repository online.
+2. Select "Push Origin." This "saves" your changes to your online account and local files. It also allows your changes to be seen by your team members and others through your GitHub repository online.
 {% include bootstrap/figure.md img="/howto/github/github_pushcommittoorigin.png" caption="Pushing Commits to the Origin(GitHub)" alt="Pushing Commits to Origin button" %}
+
+### Pulling Changes from GitHub
+
+1. When other members of your team, or edits were made to your files elsewhere, you'll see a number of commits next to "Pull Origin" on the right of the top bar displaying your repository and branch. The same place you would see "Push Origin". 
+
+2. Select "Pull Origin". This allows those changes made elsewhere to be applied to your local files on your computer. You will be able view these edits and changes from your own GitHub account now and when you [generate your site](generatingsite.md) from your text editor.
+
+{:.alert .alert-info}
+For more information and guides about the GitHub workflow, see these [GitHub guides](https://help.github.com/en/desktop/contributing-to-projects){:target="_blank"}.

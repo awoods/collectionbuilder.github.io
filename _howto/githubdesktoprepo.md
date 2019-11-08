@@ -41,6 +41,6 @@ Do not copy and paste the whole folder you downloaded into your new repository. 
 
 ### Step 5: View the Code
 
-Now you have all of the CollectionBuilder code in your repository! You can now view it and customize it to fit the collection you want to make. But first you need to [commit and push](pushpullchanges.html) your changes to GitHub as a sort of way to "save" or "sync" your edits to your online GitHub account.
+Now you have all of the CollectionBuilder code in your repository! You can now view it and customize it to fit the collection you want to make. But first you need to [commit and push](pushpullchanges.html){:target="_blank"} your changes to GitHub as a sort of way to "save" or "sync" your edits to your online GitHub account.
 
-You can view what changes you made by [generating your site]() in your text editor (like Visual Studio Code).
+You can view what changes you made by [generating your site](generatingsite.md){:target="_blank"} in your text editor (like Visual Studio Code).
