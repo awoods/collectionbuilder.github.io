@@ -24,7 +24,7 @@ For example, a CollectionBuilder project will be one repository.
 ### Step 3: README and .gitignore
 
 - Scroll down the page from where you named your repository. There will be a checkbox next to "Initialize this repository with a README". Check this box. This will start your repository with at least one document that you can edit, making it easier to get started.
-- Directly under the README checkbox, there will be a dropdown list button saying "Add .gitignore." Click the dropdown, start typing "Jekyll" in the search, and select the "Jekyll" option.
+- Directly under the README checkbox, there will be a dropdown list button saying "Add .gitignore". Click the dropdown, start typing "Jekyll" in the search, and select the "Jekyll" option.
 - The rest of the settings should be ready to go as they are. Now select the "Create Repository" button.
 {% include bootstrap/figure.md img="/howto/github/github_readme.png" caption="Selecting the README box, adding the Jekyll .gitignore, and creating your repository. " alt="Checked README box, added Jekyll .gitignore, and creating the repository" %}
 
