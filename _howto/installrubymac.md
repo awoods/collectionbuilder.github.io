@@ -57,3 +57,11 @@ then rehash
 
 test
 `ruby -v`
+
+close and quit your terminal, then open your terminal window again
+
+type
+`ruby -v`
+
+Your computer should be using ruby version 2.6.3 now
+
