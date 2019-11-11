@@ -39,7 +39,7 @@ Frustratingly, different versions of Ruby have many dependency and incompatibili
 - You'll now need to edit your bash profile so that this setting is constant from now on.  After entering `rbenv init` into the prompt, the terminal will list some text that has instructions you have to follow. On mac it should say to add `eval "$(rbenv init -)` to your bash_profile. To do this, follow the instructions below: 
     - Open your bash profile with the terminal's text editor, nano, by entering  `nano ~/.bash_profile` into the prompt (init will give you the correct filename; if it's different than this, enter it after '~/.')
     - Add `eval "$(rbenv init -)` at the end of the profile when it opens in the screen. 
-    - Click Command (⌘) + X to exit and save the profile. When prompted whether you want to save the profile, push `y`. 
+    - Click `control (^) + X` to exit and save the profile. When prompted whether you want to save the profile, push `y`. 
 - Now you're ready to install Ruby!
     - Install the latest version of ruby by copy/pasting or writing, `rbenv install 2.6.3`  (2.6.3 is the latest solid version as of this writing; if you are reading this past August 2020, you may need to check the "Stable Releases" section on [the download Ruby page](https://www.ruby-lang.org/en/downloads/){target="_blank}
     - Now let's set that version as your global Ruby version by entering `rbenv global 2.6.3` into the prompt. 
