@@ -8,7 +8,7 @@ This guide will help you to clone a repository from you GitHub account to GitHub
 {:.alert .alert-warning}
 Before you clone your repository, you will have to install [GitHub Desktop.](githubdesktop.html){:target="_blank"}
 
-### Step 1: Sign in to your online GitHub account
+### Step 1: Sign in to your online [GitHub account](https://github.com/){:target="_blank"}
 
 ### Step 2: Select the repository you want to clone
 

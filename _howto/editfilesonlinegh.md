@@ -3,7 +3,7 @@ layout: howto
 title: How To Edit Files in GitHub Online
 ---
 
-### Step 1: Log In to Your GitHub Account
+### Step 1: Log In to Your [GitHub Account](https://github.com/){:target="_blank"}
 
 - Select the file you would like to edit. If you [created a new repository](setupgithubrepo.html.) and initialized it with a README file, you can start by editing this file to get the hang of things.
 
