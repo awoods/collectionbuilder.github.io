@@ -4,7 +4,7 @@ title: How To Set Up the CollectionBuilder Repository in GitHub Desktop
 ---
 
 {:.alert .alert-warning}
-You should already have a GitHub account before proceeding with this How To. You should also have [GitHub desktop](githubdesktop.html){:target="_blank"} and a text editor such as [Visual Studio Code](visualstudiocode.html){:target="_blank"} installed your computer.
+You should already have a GitHub account before proceeding with this How To. You should also have [GitHub desktop](githubdesktop.html){:target="_blank"} and a text editor such as [Visual Studio Code](visualstudiocode.html){:target="_blank"} or [Atom](installatom.html){:target="_blank"}installed your computer.
 
 
 ### Step 1: Create a New Repository in GitHub online
