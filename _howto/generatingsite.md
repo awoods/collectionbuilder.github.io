@@ -13,7 +13,7 @@ title: How To Generate your Site from Your Text Editor
     installed for this how-to guide to work for you.</p>
 </div>
 
-Generating your website code in your text editor allows you to see your edits as you make them, BEFORE you commit and push your changes.
+Generating your website code in your text editor allows you to see your edits as you make them, BEFORE you publish your edits.
 
 ### Step 1: Open your Repository in your Text Editor
 
