@@ -23,6 +23,6 @@ GitHub Desktop is a great way to push changes from your text editor to your onli
 
 {% include bootstrap/figure.md img="howto/githubdesktop/welcome.copy.png" caption="" alt="screen shot of the zip file for GitHub Desktop" class="w-50"%}
 
-- Put in the same login credentials you would normally when logging into GitHub Desktop. If you have not yet set up a GitHub account please view our 'How To' on setting one up. 
+- Put in the same login credentials you would normally when logging into GitHub.com. If you have not yet set up a GitHub account please view our 'How To' on setting one up. 
 
 {% include bootstrap/figure.md img="howto/githubdesktop/signin.copy.png" caption="" alt="screen shot of the zip file for GitHub Desktop" class="w-50"%}
