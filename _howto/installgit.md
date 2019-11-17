@@ -11,13 +11,23 @@ Git is a distributed version-control system that helps track changes in source c
 
 - You're going to want to start off by going to the [Git download page](https://git-scm.com/downloads) and click on whichever operating system you utilize. Below is a photo of what this page will look like, along with the OS options you are prompted with. 
 
+{% include bootstrap/figure.md img="howto/git/thumbnail_capture1.jpg" caption="" alt="screen shot of git homepage" class="w-50"%}
+
 - After you click on your OS, a zip file will drop into the corner of your browser, click on it. 
+
+{% include bootstrap/figure.md img="howto/git/gitthumbnail.jpg" caption="" alt="screen shot of thumbnail" class="w-50"%}
 
 - A security warning will open up, click on "Run". 
 
+{% include bootstrap/figure.md img="howto/git/runfinal.png" caption="" alt="screen shot of file download" class="w-50"%}
+
 - Git's general information and disclaimer will then appear, just keep hitting next until the program begins downloading. 
 
+{% include bootstrap/figure.md img="howto/git/installgit.jpg" caption="" alt="screen shot of installing git window" class="w-50"%}
+
 - Next, a window called "Completing the Git Setup Wizard" will prompt you to click on "finish," click it. 
+
+{% include bootstrap/figure.md img="howto/git/finishgitfinal.png" caption="" alt="screen shot of finish command for git" class="w-50"%}
 
 - You will know you are done when Git's Release Notes come up on your screen. 
 
