@@ -8,7 +8,7 @@ This guide will help you to clone a repository from you GitHub account to GitHub
 {:.alert .alert-warning}
 Before you clone your repository, you will have to install [GitHub Desktop.](githubdesktop.html){:target="_blank"}
 
-### Step 1: Sign in to your online GitHub account
+### Step 1: Sign in to your online [GitHub account](https://github.com/){:target="_blank"}
 
 ### Step 2: Select the repository you want to clone
 
@@ -25,4 +25,4 @@ Before you clone your repository, you will have to install [GitHub Desktop.](git
 
 You've successfully cloned you repository to GitHub desktop. In your GitHub desktop, you should be able to see your repository name on the top left corner. For additional help, you can refer to [GitHub's guides.](https://help.github.com/en/desktop/contributing-to-projects){:target="_blank"}
 
-From here, you're able to [open and edit the code]() in text editors such as [Visual Studio Code](visualstudiocode.html){:target="_blank"} and [Atom](installatom.html){:target="_blank"}. You can also refer to [this guide]() to help you understand [pushing and pulling commits](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project){:target="_blank"} to your GitHub online.
+From here, you're able to [open and edit the code](openrepointexteditor.html) in text editors such as [Visual Studio Code](visualstudiocode.html){:target="_blank"} and [Atom](installatom.html){:target="_blank"}. You can also refer to [this guide](pushpullchanges.html) to help you understand [pushing and pulling commits](https://help.github.com/en/desktop/contributing-to-projects/committing-and-reviewing-changes-to-your-project){:target="_blank"} to your GitHub online.
