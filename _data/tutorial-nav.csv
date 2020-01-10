@@ -1,0 +1,14 @@
+title,page,type,parent
+Introduction,introduction,
+Installing Software,software,
+Text Editor,#text,,software
+Git & GitHub,#git,,software
+Ruby,#ruby,,software
+Jekyll,#jekyll,,software
+Metadata,metadata,
+Git and GitHub Setup,github,
+Config File (_config.yml),config,
+Theme File (/_data/theme.yml),theme,
+Customizations - Page Configuration,customize,
+Finishing the Collection,finish,
+Deploying the Collection,deploy,
