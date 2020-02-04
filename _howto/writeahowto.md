@@ -5,7 +5,7 @@ title: How To Write a How-To
 
 All of our how to files will be written in markdown. Here's a quick reference: 
 
-- [Markdown Refernce](https://commonmark.org/help/)
+- [Markdown Reference](https://commonmark.org/help/)
 
 ## Intro and Initial Header
 
