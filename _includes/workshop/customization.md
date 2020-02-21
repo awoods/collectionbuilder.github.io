@@ -18,23 +18,36 @@ The files discussed in this section will help you customize the website to fit t
 
 ## Navigation Header Configuration (config-nav.csv)
 
-This CSV controls what and in what order the links on your header show up. 
+This CSV controls what and in what order the links appear in your header's navigation bar. 
 
-- **display-text**: This field determine what words will display in the header. 
-- **stub**: This field determins what link the display text will follow. 
+- **display_text**: This field determines what words will display in the nav bar. 
+- **stub**: This field determines what link the display text will follow. 
+- **dropdown_parent**: This field is used to add dropdown functionality to your nav bar. Use it to indicate items that should appear inside a dropdown menu. It should be left empty for any non-dropdown nav item. Follow these rules to configure your nav dropdown:
+    - If the item has a `stub`, but no value in `dropdown_parent`, it becomes a normal nav item
+    - If the item has no `stub`, it will become a dropdown menu
+    - If the item has a value in `dropdown_parent`, it will only show up under the parent dropdown
 
 ### Example
 
 {:.pl-4}
-    display-text,stub
-    Home,/
-    Browse,/browse.html
-    Subjects,/subjects.html
-    Map,/map.html
-    Timeline,/timeline.html
-    Data,/data/
+```
+    display_text,stub,dropdown_parent
+    Home,/,
+    Browse,/browse.html,
+    Subjects,/subjects.html,
+    Map,/map.html,
+    Timeline,/timeline.html,
+    Data,/data/,
+    About,,
+    About the Collection,/about.html,About
+    CollectionBuilder,/tech.html,About
+```
 
-The above CSV would create 6 links in the header for the referenced pages. Note the About Page has been deleted. If you wanted to add it back in, you'd just add a line after the "Data,/data/" line that read: About,about.html
+The above CSV will create 7 links in the nav bar for the referenced pages. These same nav items will also automatically appear in the footer. The last two lines of this CSV will appear within the "About" dropdown menu. "About" (because it has no value in `stub` or `dropdown_parent`) will appear in the nav bar as a dropdown button. When clicked, the dropdown menu will appear with "About the Collection" and "CollectionBuilder" listed, both linking to their respective pages.
+
+You might have noticed that the Locations Page has been deleted, so it won't show up in your nav bar. If you want to add it back in, you'll just need to add a line after the `Subjects,/subjects.html,` line that reads: `Locations,/locations.html,`
+
+Note: Dropdowns do NOT appear in the footer nav. The parent will appear, with a link to the top child. 
 
 {:.py-4 .mt-4 #config-metadata}
 ***
@@ -43,33 +56,47 @@ The above CSV would create 6 links in the header for the referenced pages. Note 
 
 The most important CSV (if you're measuring by the number of pages it creates!) is the one that controls the metadata. [***config-metadata.csv***](#config-metadata) controls how an item's metadata is displayed on its web page. The file provides a number of options to help control the display of the item, as well as the machine-readability/SEO indexing characteristics of the code underneath the display. The fields are described below: 
 
-- **field**: This variable corresponds to the field listed in the metadata for the collection. For instance, if you have a field called "original-collection", you would put "original-collection" here. 
-- **display-name**: This variable is how you'd like the field to be described on the item page. So, using the example above, if you'd like the field "original-collection" to appear as "Original Archival Collection" on the item page, you'd enter "Original Archival Collection" in the second column. 
-- **dc-map**: 
-    - *Options*: [DC Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/), written like "DC.the_term_you_choose_from_the_site_linked
-    - If you'd like to map this piece of metadata so that it will be machine readable in the code for the page, you can enter the Dublin Core metadata field you'd like it to be represented as here. So, continuing with our example, if you'd lke to map the "original-collection" field to be read as a Dublin Core Source element, you'd enter "DC.source" in the third column.  
+- **field**: This variable corresponds to the field listed in the metadata for the collection. For instance, if you have a metadata field called "original-collection", you would put "original-collection" here. 
+- **display-name**: This variable is how you'd like the field to be described on the item page. So, using the example above, if you'd like the field "original-collection" to appear as "Original Archival Collection" on the item page, you'd enter "Original Archival Collection" in the second column.
 - **browse-link**: 
-    - *Options*: "true" or leave blank. 
-    - You can either enter "true" in this column, or leave it blank. This option controls whether this element will be represented as a link back to the browse page. It is most useful for those fields, like "subject," that often have multiple entries. So, for instance, if you wanted to make the subjects in your "subject" field separate out into individual links, you'd enter "true" in the fourth column. 
+    - *Options*: `true` or leave blank. 
+    - You can either enter `true` in this column, or leave it blank. This option controls whether this element will be represented as a link from the item page back to the browse page. It is most useful for those fields, like "subject," that often have multiple entries. So, for instance, if you wanted to make the subjects in your "subject" field separate out into individual links, you'd enter `true` in the fourth column of the `config-metadata.csv`  
+- **dc-map**: 
+    - *Options*: [DC Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/), written like `DC.the_term_you_choose_from_the_site_linked`
+    - If you'd like to map this piece of metadata so that it will be machine readable in the code for the page, you can enter the Dublin Core metadata field you'd like it to be represented as here. So, continuing with our original example, if you'd lke to map the "original-collection" field to be read as a Dublin Core Source element, you'd enter "DC.source" in the third column.
+- **schema-map**:
+    - Schema is a standard designed to provide structured semantic markup for search engines to better understand content of web pages. Item pages have in depth Schema markup in JSON-LD format driven by the object metadata. 
+    - See the [Full Schema hierarchy](https://schema.org/docs/full.html) for more detail and options. Each item page is given the basic type of `CreativeWork`, thus metadata fields can be mapped to any of the properties listed on the [CreativeWork documentation](https://schema.org/CreativeWork). Copy the exact property name, as this value will be turned into schema JSON-LD markup. 
+    - *Options*: Suggested field mappings include:
+        - `headline` (i.e. the title)
+        - `creator`
+        - `dateCreated`
+        - `description`
+        - `keywords`
+        - `contentLocation`
+        - `encodingFormat` (This corresponds to the [format](metadata#required) field of CollectionBuilder items)
+        - `license` (Should only be used with a standardized rights URL)
 
 ### Example 
 
 {:.pl-4}
-    field,display-name,dc-map,browse-link
-    title,Title,DC.title
-    creator,Creator,DC.creator
-    date,Date Created,DCTERMS.created
-    description,Description,DC.description
-    subject,Subjects,DC.subject,true
-    location,Locations,,true
-    collection,Source Collection,DC.source
-    type,Type,DC.type
-    format original,Original Format
-    format,Format
+    field,display-name,browse-link,dc-map,schema-map
+    title,Title,,DC.title,headline
+    creator,Creator,,DC.creator,creator
+    date,Date Created,,DCTERMS.created,dateCreated
+    date-is-approximate,Approximated Date
+    description,Description,,DC.description,description
+    subject,Subjects,true,DC.subject,keywords
+    location,Location,true,,contentLocation
+    identifier,Source Identifier
+    type,Type,,DC.type
+    format,Format,,,encodingFormat
+    rightsstatement,,,DC.rights,license
 
-- All fields in the above would be textual, save for the location and subject fields, which would create filter links (e.g. browse.html#dogs) back to the browse page for each location and subject delimited by semi-colon in that field. 
-
-- The title, creator, data, description, subject, collection, type, and format fields would all be represented in the web page's "head" meta section related to the Dublin Core schema to enable better machine readability and indexing.   
+- In the case of this example:
+    - Only the location and subject fields have a value (`true`) for "browse-link", which creates filter links (e.g. browse.html#dogs) back to the browse page for each location and subject delimited by semi-colon in that field. 
+    - The title, creator, date, description, subject, and type fields would all be represented in an item page's "head" meta section related to the Dublin Core schema to enable better machine readability and indexing.
+    - The title, creator, date, description, subject, location, format, and rightstatement fields would all be represented in an item page's "head" meta section related to Schema.org to enable better machine readability and indexing.    
  
 {:.py-4 .mt-4 #config-browse}
 ***
