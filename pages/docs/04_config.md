@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: docs-default
 title: Config File (_config.yml)
 permalink: /docs/config.html
 section: config

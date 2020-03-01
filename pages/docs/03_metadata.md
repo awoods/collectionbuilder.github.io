@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: docs-default
 title: Metadata
 permalink: /docs/metadata.html
 section: metadata

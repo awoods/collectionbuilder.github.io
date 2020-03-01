@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: docs-default
 title: Git and GitHub Setup
 permalink: /docs/repository.html
 section: repository

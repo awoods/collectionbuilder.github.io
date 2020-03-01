@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: docs-default
 title: Finishing the Collection
 permalink: /docs/polish.html
 section: polish

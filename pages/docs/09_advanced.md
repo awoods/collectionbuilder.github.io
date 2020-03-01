@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: docs-default
 title: Advanced Topics
 permalink: /docs/advanced.html
 section: advanced

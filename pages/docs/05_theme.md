@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: docs-default
 title: Theme File (_data/theme.yml)
 permalink: /docs/theme.html
 section: theme

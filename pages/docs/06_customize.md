@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: docs-default
 title: Customizations
 permalink: /docs/customize.html
 section: customize

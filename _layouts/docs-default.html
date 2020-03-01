@@ -1,0 +1,27 @@
+---
+#
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include head.html %}
+    </head>
+    <body>
+        {% include header.html %}
+        <div class="container-fluid">
+            <div class="row flex-xl-nowrap">
+                <div class="col-md-3 col-xl-2 bd-sidebar">
+                    {% include test-sidebar.html %}
+                </div>
+                <main class="col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+                    <h1 class="display-4 mb-4 border-bottom pb-3" id="content">{{ page.title }}</h1>
+                    {{ content }}
+                    <hr class="my-4">
+                    
+                </main>
+            </div>
+        </div>
+        
+        {% include foot.html %}
+    </body>
+</html>

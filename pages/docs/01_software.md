@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: docs-default
 title: Installing Software
 permalink: /docs/software.html
 section: software

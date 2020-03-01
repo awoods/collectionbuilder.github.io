@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: docs-default
 title: Introduction
 permalink: /docs/introduction.html
 step: 0

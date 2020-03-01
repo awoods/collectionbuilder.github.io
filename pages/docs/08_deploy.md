@@ -1,5 +1,5 @@
 ---
-layout: docs
+layout: docs-default
 title: Deploying the Collection
 permalink: /docs/deploy.html
 section: deploy
