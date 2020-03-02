@@ -4,7 +4,7 @@
     <h3 class="typefilter gh hidden">GH</h3>
     <h3 class="typefilter sa hidden">SA</h3>
 
-    {% assign steps = site.html_pages | where: 'layout','docs' | sort: 'step' %}
+    {% assign steps = site.html_pages | where: 'layout','docs-default' | sort: 'step' %}
 
     {% for step in steps %}
     {% if step.step %}
